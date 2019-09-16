@@ -2,22 +2,111 @@
 <html>
     <head>
         <title>My Webpage</title>
-      
-        <link rel="stylesheet" href="theme_1568523717807.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-          a::before{
-              background-color:lightgreen;
-              content:"\21d2 dale";
+          th>a{
               font-weight: bold;
+              color:white;
+              text-decoration-line: underline;
+            }
+            div p{
+              width:50%;
             }
 
+            h1,h3{
+              text-align: center;
+            }
+            th>button{
+              width:150%;
+            }
+            @media (max-width: 499px) {
+                body {
+                  background-color: black;
+                }
+                h1,p,h3{
+                  color: white;
+                }
+                .lead{
+                  width:50%;
+                  text-align: center;
+                }
+            }
         </style>
+
     </head>
     <body>
-        Hello, world!
+    <div class="container">
+        <h1 class="display-2" >Summarize of the last 3 years!</h1>
+    </div>
+    <h1>.</h1>
+    <h1>.</h1>
 
+
+    <center>
+          <table class="table table-sm table-striped table-dark col-lg-3 col-sm-6" style="width:70%;" >
+            </center>
+      <caption>Links y descripcin de la pagina web y de las pestanas</caption>
+      <tr>
+        <th scope="col"class="bg-primary"><a href="link0.html">
+          <button type="button" class="btn btn-primary">&#x26D4; Tuva</button>
+           </a></th>
+        <th scope="col"class="bg-success"><a href="link1.html">
+        <button type="button" class="btn btn-success">&#x26D4; Peru</button>
+         </a></th>
+
+        <th scope="col"class="bg-warning"><a href="link2.html" style="color">
+          <button type="button" class="btn btn-warning">&#x26D4; Planes</button>
+        </a></th>
+
+      </tr>
+      <tr>
+        <td  colspan="5" style="text-align:center;">Contiene</td>
+      </tr>
+      <tr >
+        <td>Detalles Viaje</td>
+        <td>Detalles Viaje</td>
+        <td>Detalles Planes</td>
+      </tr>
+      <tr>
+        <td>Organizacion</td>
+        <td>Organizacion</td>
+        <td>Conflictos</td>
+      </tr>
+    </table>
+    <ul>
+        <li>  <div ><a href="#yo">Aspiraciones</a></div></li>
+        <li>  <div ><a href="#mision">viaje a Tuva</a></div></li>
+        <li>  <div ><a href="#vision" >viaje a Peru</a></div></li>
+        <li>  <div ><a href="https://getbootstrap.com/docs/4.0/content/typography/" >viaje a Peru</a></div></li>
+
+    </ul>
+    <div id="yo">
+
+      <h3 class="display-4">Quien soy?</h3>
+      <center><img src="yo.jpg" width="40%">
+      <p class="lead"> Pues yo soy, y tu como estas men?,
+        me gusta muchas cosas, conocer personas,
+        escuchar musica, aprender a cantar en ingles,
+        viajar, estar solo y el freestyle yy... yy ... anime etc.
+      </p></center>
+    </div>
+    <div id="mision">
+      <h3 class="display-4">Mision</h3>
+      <p class="lead">mision ninguna no soy tortuga ninja o algo asi.Espero que llegue algo no se que,que no sea diabetes, paara seguir un nuevo hilo. </p>
+    </div>
+    <div id="vision">
+      <h3 class="display-4">Vision</h3>
+      <p class="lead">pues que se puede decir desearia la vision de scott, bien chido estaria. Aspirar graduarme poder hacer algo interesante y ganer ruedo en la caida y estallar y que se queden locotes</p>
+    </div>
+
+    
+    <div class="alert alert-success" role="alert">
+      <h4 class="alert-heading">Gracias por leer!</h4>
+      <p>Finnal de esta pagina</p>
+      <hr>
+      <p class="mb-0">hay mas pestanas no dudes en verlas</p>
+    </div>
     </body>
-    <div ><a href="link0.html">la historia de free</a></div>
-    <div ><a href="link1.html" > aqui abigail</a></div>
-    <div ><a href="link2.html">link2</a></div>
 </html>

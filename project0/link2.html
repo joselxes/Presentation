@@ -6,7 +6,7 @@
     </head>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style media="screen">
-        th>a{
+        a>button{
             font-weight: bold;
             color:white;
             text-decoration-line: underline;
@@ -14,7 +14,21 @@
           .lead,.paragraph{
             width:50%;
             text-align: center;
+
           }
+          .row > div {
+                padding: 20px;
+                background-color: teal;
+                border: 2px solid black;
+            }
+            button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
     </style>
     <body>
       <center>
@@ -23,14 +37,14 @@
         <caption>Pestanas de navegacion</caption>
         <tr>
           <th scope="col"class="bg-primary"><a href="link0.html">
-            <button type="button" class="btn btn-primary">&#x26D4; Tuva</button>
+            <button type="button" class="btn btn-primary" >&#x26D4; Tuva</button>
              </a></th>
           <th scope="col"class="bg-success"><a href="link1.html">
           <button type="button" class="btn btn-success">&#x26D4; Peru</button>
            </a></th>
 
           <th scope="col"class="bg-warning"><a href="link2.html" style="color">
-            <button type="button" class="btn btn-warning">&#x26D4; Planes</button>
+            <button type="button" class="btn btn-warning"style="color:white;">&#x26D4; Planes</button>
           </a></th>
           <th scope="col"class="bg-info"><a href="index.html" style="color">
             <button type="button" class="btn btn-info">&#x26D4;Pagina principal</button>
@@ -61,16 +75,45 @@
        </ol>
      </div>
 
+     <center>
+     <div class="container">
+                 <div class="row">
+                     <div class="col-lg-4 col-sm-6">
+                       <a href="https://www.rgo.ru/en">
+                       <button type="button" >
+                         <img src="btRgo.jpg" width="50%">
+                       </button>
+                        </a>
+                     </div>
+                     <div class="col-lg-4 col-sm-6">
+                       <a href="https://www.rgo.ru/en">
+                       <button type="button" >
+                         <img src="btUniversidad.png" width="100%">
+                       </button>
+                        </a>
+                     </div>
+                     <div class="col-lg-4 col-sm-6">
+                       <a href="https://www.instagram.com">
+                       <button type="button" >
+                         <img src="btInstagram.png" width="50%">
+                       </button>
+                        </a>
+                     </div>
+                   </div>
+                 </div>
 
+                </center>
 
 
 
      <div class="alert alert-success" role="alert">
        <h4 class="alert-heading">Gracias por leer!</h4>
-       <p>Finnal de esta pagina</p>
+       <p>Final de esta pagina</p>
        <hr>
        <p class="mb-0">hay mas pestanas no dudes en verlas</p>
      </div>
+
+
     </body>
 
 </html>

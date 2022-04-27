@@ -4,46 +4,27 @@
         <title>My Webpage</title>
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-          th a{
-              font-weight: bold;
-              text-decoration-line: underline;
-            }
-            div p{
-              width:50%;
-            }
-            h1,h3{
-              text-align: center;
-            }
-            a>button{
-              width:100%;
-            }
-            @media (max-width: 499px) {
-                body {
-                  background-color: black;
-                }
-                h1,p,h3{
-                  color: white;
-                }
-                .lead{
-                  width:50%;
-                  text-align: center;
-                }
-            }
-        </style>
+        <link rel="stylesheet" href="docsas.css">
+  <style media="screen">
+    a>button{
+        font-weight: bold;
+        color:white;
+        text-decoration-line: underline;
+      }
+
+</style>
 
     </head>
     <body>
-    <div class="container">
+    <!-- <div class="container" style="background-color: transparent;"> -->
         <h1 class="display-2" >Summarize of the last 3 years!</h1>
-    </div>
-    <h1>.</h1>
-    <h1>.</h1>
+    <!-- </div> -->
+    <!-- <h1 class="display-2">.</h1>
+    <h1 class="display-2">.</h1> -->
 
 
     <center>
-          <table class="table table-sm table-striped table-dark col-lg-3 col-sm-6" style="width:70%;" >
+          <table class="table table-sm table-striped table-danger col-lg-3 col-sm-6" style="width:70%;" >
             </center>
       <caption>Links y descripcin de la pagina web y de las pestanas</caption>
       <tr>
@@ -54,10 +35,12 @@
         <button type="button" class="btn btn-success">&#x26D4; Peru</button>
          </a></th>
 
-        <th scope="col"class="bg-warning"><a href="link2.html" >
-          <button type="button" class="btn btn-warning" style="color:white;">&#x26D4; Planes</button>
+        <th scope="col"class="bg-dark"><a href="link2.html" >
+          <button type="button" class="btn btn-dark" style="color:white;">&#x26D4; Planes</button>
         </a></th>
-
+        <th scope="col"class="bg-warning"><a href="link3.html" >
+          <button type="button" class="btn btn-warning" style="color:white;">&#x26D4; Galapagos</button>
+        </a></th>
       </tr>
       <tr>
         <td  colspan="5" style="text-align:center;">Contiene</td>
@@ -65,9 +48,11 @@
       <tr >
         <td>Detalles Viaje</td>
         <td>Detalles Viaje</td>
+        <td>Detalles Viaje</td>
         <td>Detalles Planes</td>
       </tr>
       <tr>
+        <td>Organizacion</td>
         <td>Organizacion</td>
         <td>Organizacion</td>
         <td>Conflictos</td>
@@ -83,12 +68,16 @@
     <div id="yo">
 
       <h3 class="display-4">Quien soy?</h3>
-      <center><img src="yo.jpg" width="40%">
-      <p class="lead"> Pues yo soy, y tu como estas men?,
+
+        <img src="yo.jpg" class="ds">
+      
+        <p class="lead"> Pues yo soy, y tu como estas men?,
         me gusta muchas cosas, conocer personas,
         escuchar musica, aprender a cantar en ingles,
         viajar, estar solo y el freestyle yy... yy ... anime etc.
-      </p></center>
+      
+      </p>
+
     </div>
     <div id="mision">
       <h3 class="display-4">Mision</h3>
@@ -96,9 +85,25 @@
     </div>
     <div id="vision">
       <h3 class="display-4">Vision</h3>
-      <p class="lead">pues que se puede decir desearia la vision de scott, bien chido estaria. Aspirar graduarme poder hacer algo interesante y ganer ruedo en la caida y estallar y que se queden locotes</p>
+      <p class="lead">pues que se puede decir desearia la vision de scott, bien chido estaria. Aspirar graduarme poder hacer algo interesante y ganer ruedo en la caida y estallar y que se queden locotes.</p>
     </div>
 
+    <div class="container">
+      <div class="row" >
+        <div class="col-sm"  >
+          <a href="https://www.instagram.com">
+            <img src="btRgo.jpg" width="60px"></a>
+        </div>
+        <div class="col-sm" >
+          <a href="https://www.instagram.com">
+            <img src="btInstagram.png" width="60px"></a>
+        </div>
+        <div class="col-sm">
+          <a href="https://www.yachaytech.edu.ec/mtics/">
+            <img src="btUniversidad.png" width="160px"></a>
+        </div>
+      </div>
+    </div>
 
     <div class="alert alert-success" role="alert">
       <h4 class="alert-heading">Gracias por leer!</h4>

@@ -1,0 +1,84 @@
+$colorVariable:black;
+
+%textMessage {
+  width: 50%;
+  text-align: center;
+
+}
+%btnTransparente{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+%textCenter{
+    text-align: center;
+    font-weight: bold;
+    text-decoration-line: underline
+}
+
+
+@media (max-width: 499px) {
+
+    body {
+      background-color: $colorVariable;
+    }
+    h1,p,h3{
+      color: white;
+    }
+    .lead{
+      width: 50%;
+      text-align: center;
+      font-weight: bold;
+
+    }
+}
+
+th{
+    a{
+      font-weight: bold;
+      text-decoration-line: underline;
+    }
+  }
+  div {
+    p{
+    width:70%;
+  }
+  }
+  .paragraph{
+    @extend %textMessage;
+  }
+  h1{
+    @extend %textMessage;
+
+  }
+  h3{
+    @extend %textMessage;
+  }
+  .lead{
+    @extend %textMessage;
+  }
+
+  a{
+    >button{
+            @extend %textCenter;
+          width:100%;
+    }
+
+  }
+
+  .row{
+    >div {
+        padding: 20px;
+        background-color: teal;
+        border: 2px solid black;
+    }}
+.container{
+
+  button {
+    @extend %btnTransparente;
+  }
+}
